@@ -3,7 +3,6 @@ class BoardsController < ApplicationController
 
   # GET /boards or /boards.json
   def index
-    binding.b
     @boards = Board.all
   end
 
